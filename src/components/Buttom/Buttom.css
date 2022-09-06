@@ -1,0 +1,14 @@
+.buttom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+
+.First-container {
+    display: flex;
+    flex-direction: row;
+    background: #000;
+    justify-content: center;
+}
+
+
+.First-content {
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: 'Lemonada', cursive;
+    cursor: pointer;
+    text-decoration: 2px rgb(27, 213, 185) underline;
+    text-underline-position: under;
+
+}
+
+.First-content p {
+    font-size: 0.6rem;
+}

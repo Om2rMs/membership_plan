@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+    background: #fff;
+    padding: 5px;
+    justify-content: space-between;
+
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    margin-right: 40px;
+
+}
+
+.flash-logo {
+    height: 40px;
+    margin-left: 20px;
+    padding: 10px 10px;
+}
+
+.navbar-text-left {
+    color: #000;
+    font-family: "Bangers", cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar-text-one {
+    color: #000;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: 'Lemonada', cursive;
+}
+
+.navbar-text-two {
+    color: #000;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: 'Lemonada', cursive;
+
+}
+
+.start-btn {
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(5, 224, 244);
+    color: #fff;
+}
+
+.start-btn:hover {
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .navbar-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        background: #fff;
+        padding: 5px;
+
+    }
+
+    .navbar-right {
+
+        margin-right: 0;
+
+    }
+
+    .flash-logo {
+        height: 300px;
+        padding: 10px 10px;
+    }
+
+    .navbar-text-left {
+        display: none;
+    }
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
+
+}
